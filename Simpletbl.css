@@ -1,0 +1,147 @@
+﻿table.simpletbl {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+    width: 100%;
+    line-height: 20px;
+    border: #808080 1px solid;
+    color: #393939;
+}
+
+    table.simpletbl caption {
+        font: bold 16pt/20px 黑体;
+    }
+
+.subtbl CAPTION {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    background: white;
+    border-left: #808080 1px solid;
+    border-right: #808080 1px solid;
+}
+
+table.simpletbl > tr > td, .simpletbl > tbody > tr > td {
+    border-radius: 3px;
+    text-align: left;
+    padding: 1px 3px 1px 3px;
+    border: 1px #808080 solid;
+    height: 26px;
+    line-height: 150%;
+}
+
+.simpletbl .TextBoxInChar, .simpletbl .TextBoxInDate, .simpletbl .TextBoxInOutPage {
+    height: 25px;
+    border: 1px solid #eee;
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 0px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.simpletbl .TextBoxInArea {
+    border: 1px solid #eee;
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px -2px;
+    font-size: 10pt;
+}
+
+.wfdealinfo .TextBoxInArea {
+    border: 1px solid #bbb;
+    background: url(../img/common/bg_input_text.png) white repeat-x left top;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+    font-size: 10pt;
+    float: left;
+    width: 99.5%;
+}
+
+.simpletbl .TextBoxInChar:hover, .simpletbl .TextBoxInChar:focus, .simpletbl .TextBoxInDate:hover, .simpletbl .TextBoxInDate:focus, .simpletbl .TextBoxInArea:hover, .simpletbl .TextBoxInArea:focus {
+    border-color: #ddefff;
+    -webkit-box-shadow: 0px 0px 5px #e3e3e3;
+    -moz-box-shadow: 0px 0px 5px #e3e3e3;
+    box-shadow: 0px 0px 5px #e3e3e3;
+}
+
+.simpletbl a.subeditbtn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+    background: url(../img/common/view.png) no-repeat left center;
+    text-decoration: none;
+}
+
+.DropDownIn {
+    height: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+}
+
+#PositionList {
+    height: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+    margin-top: 3px;
+}
+
+.subtbl .subtbltd {
+    text-align: center;
+    background: #FAF8F8 url(../img/common/bg_btn.png) repeat-x center center;   
+}
+
+.subtbl .totalrow TD {
+    text-align: center;
+    border: 0px;
+}
+
+.subtblspan {
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    padding-top: 4px;
+    cursor: pointer;
+    background: #3385FF;
+    padding-right: 12px;
+}
+.subtblspan a:hover {
+    color: white;
+}
+input.imgbutton {
+    border: 0px solid gray;
+    color: White;
+    font-weight: bold;
+    background: #999;
+    border-radius: 3px;
+    margin: 3px;
+    height: 30px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-left: 32px;
+}
+.imgbutton {
+    border: 0px solid gray;
+    color: White;
+    font-weight: bold;
+    background: #999;
+    border-radius: 3px;
+    margin: 3px;
+    height: 30px;
+    line-height: 24px;
+    cursor: pointer;
+    padding-left: 32px;
+}
