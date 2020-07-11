@@ -1,1 +1,2 @@
 this is a hello files.
+i have been studying git for a while, it's a little bit of hard to learn at very first . but since you finish up some tutorial , you may be think that it's worthwhile to spend time on it, cause it's very import fo software engineer. 
