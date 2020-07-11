@@ -8,6 +8,7 @@ end
 
 def test
   puts 'this is for test'
+  puts 'this is for test'
 
 
 hello()
