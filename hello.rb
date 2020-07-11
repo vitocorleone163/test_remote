@@ -2,8 +2,12 @@
 
 
 def hello
-  puts 'hello world'
+  puts 'hello remote world world'
+  puts 'this is the seconds'
 end
+
+def test
+  puts 'this is for test'
 
 
 hello()
