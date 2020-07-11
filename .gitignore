@@ -1,0 +1,4 @@
+# ignore files ended with .swap and .~  .~~
+*.~
+*.~~
+*.swp
